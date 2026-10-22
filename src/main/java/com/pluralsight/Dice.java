@@ -5,6 +5,10 @@ import java.util.Random;
 public class Dice {
     private int randomNumber;
 
+    public Dice() {
+        this.randomNumber = 0;
+    }
+
     public int getRandomNumber() {
         return randomNumber;
     }
